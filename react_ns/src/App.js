@@ -6,12 +6,23 @@ import Test from './Test';
 import Home from './Home';
 import Cricket from './Cricket';
 import Bollywood from './Bollywood';
+import LiftState from './LiftState';
+import COUNT from './COUNT';
+import CountFn from './CountFn';
 
 import Header from './comman/Header';
 import Footer from './comman/Footer';
 import Manubar from './comman/Manubar';
 import Left from './comman/Left';
 import Right from './comman/Right';
+
+import EMI from './emi/EMI';
+import EMI_Principal from './emi/EMI_Principal';
+import EMI_Final from './emi/EMI_Final';
+import EMI_Rate from './emi/EMI_Rate';
+import EMI_Time from './emi/EMI_Time';
+import EMI_Graph from './emi/EMI_Graph';
+
 
 function App() {
   return (
@@ -28,6 +39,10 @@ function App() {
                             <Route path = '/home' element={<Home/>}/>
                             <Route path = '/cricket' element={<Cricket/>}/>
                             <Route path = '/bollywood' element={<Bollywood/>}/>
+                            <Route path = '/liftstate' element={<LiftState/>}/>
+                            <Route path = '/emi' element={<EMI/>}/>
+                            <Route path = '/count' element={<COUNT/>}/>
+                            <Route path = '/countfn' element={<CountFn/>}/>
                           </Routes>
                         </div>
                       <Right/> 
