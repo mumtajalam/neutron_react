@@ -16,6 +16,7 @@ const Manubar = () => {
                     <Link to='/emi' className="nav-link btn btn-outline-success">EMI</Link>
                     <Link to='/count' className="nav-link btn btn-outline-success">COUNT</Link>
                     <Link to='/countfn' className="nav-link btn btn-outline-success">Count_Fn</Link>
+                    <Link to='/refclass' className="nav-link btn btn-outline-success">RefClass</Link>
                     </Navbar>
                   </div>
                 </div>

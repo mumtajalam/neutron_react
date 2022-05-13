@@ -9,6 +9,7 @@ import Bollywood from './Bollywood';
 import LiftState from './LiftState';
 import COUNT from './COUNT';
 import CountFn from './CountFn';
+import RefClass from './RefClass';
 
 import Header from './comman/Header';
 import Footer from './comman/Footer';
@@ -43,6 +44,7 @@ function App() {
                             <Route path = '/emi' element={<EMI/>}/>
                             <Route path = '/count' element={<COUNT/>}/>
                             <Route path = '/countfn' element={<CountFn/>}/>
+                            <Route path = '/refclass' element={RefClass}/>
                           </Routes>
                         </div>
                       <Right/> 
