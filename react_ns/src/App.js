@@ -10,6 +10,8 @@ import LiftState from './LiftState';
 import COUNT from './COUNT';
 import CountFn from './CountFn';
 import RefClass from './RefClass';
+import RefFn from './RefFn';
+import FormFn from './FormFn';
 
 import Header from './comman/Header';
 import Footer from './comman/Footer';
@@ -44,7 +46,9 @@ function App() {
                             <Route path = '/emi' element={<EMI/>}/>
                             <Route path = '/count' element={<COUNT/>}/>
                             <Route path = '/countfn' element={<CountFn/>}/>
-                            <Route path = '/refclass' element={RefClass}/>
+                            <Route path = '/refclass' element={<RefClass/>}/>
+                            <Route path = '/reffn' element={<RefFn/>}/>
+                            <Route path = '/formfn' element={<FormFn/>}/>
                           </Routes>
                         </div>
                       <Right/> 

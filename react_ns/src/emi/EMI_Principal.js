@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-const EMI = () => {
+const EMI_Principal = () => {
     
     return(
         <>
@@ -14,4 +14,4 @@ const EMI = () => {
         </>
     )
 }
-export default EMI;
+export default EMI_Principal;
