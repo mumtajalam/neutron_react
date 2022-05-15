@@ -29,7 +29,7 @@ const FormFn = () => {
             Email:
             <input type="email" placeholder=""/>
             <br></br>
-            password
+            password:
             <input type="password" placeholder=""/>
             <br></br>
             <button>Register</button>

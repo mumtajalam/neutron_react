@@ -7,7 +7,7 @@ const EMI_Graph = () => {
         <>
             <div className="row">
                 <div className="col-12 bg-danger bg-opacity">
-                    
+                    <h4>Graph</h4>
                 </div>
             </div>
             
