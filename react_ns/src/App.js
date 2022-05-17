@@ -12,6 +12,7 @@ import CountFn from './CountFn';
 import RefClass from './RefClass';
 import RefFn from './RefFn';
 import FormFn from './FormFn';
+import FormFnValidation from './FormFnValidation';
 
 import Header from './comman/Header';
 import Footer from './comman/Footer';
@@ -49,6 +50,7 @@ function App() {
                             <Route path = '/refclass' element={<RefClass/>}/>
                             <Route path = '/reffn' element={<RefFn/>}/>
                             <Route path = '/formfn' element={<FormFn/>}/>
+                            <Route path = '/formfn2' element={<FormFnValidation/>}/>
                           </Routes>
                         </div>
                       <Right/> 
