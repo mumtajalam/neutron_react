@@ -8,6 +8,7 @@ const Manubar = () => {
         <div className='row bg-info bg-opacity'>
                   <div className='col-12 text-center'>
                     <Navbar>
+                    <Link to='/todo' className="nav-link btn btn-outline-success">ToDo</Link>
                     <Link to='/test' className="nav-link btn btn-outline-success">Test</Link>
                     <Link to='/home' className="nav-link btn btn-outline-success">Home</Link>
                     <Link to='/cricket' className="nav-link btn btn-outline-success">Cricket</Link>

@@ -13,6 +13,7 @@ import RefClass from './RefClass';
 import RefFn from './RefFn';
 import FormFn from './FormFn';
 import FormFnValidation from './FormFnValidation';
+import ToDo from './ToDo';
 
 import Header from './comman/Header';
 import Footer from './comman/Footer';
@@ -27,7 +28,6 @@ import EMI_Rate from './emi/EMI_Rate';
 import EMI_Time from './emi/EMI_Time';
 import EMI_Graph from './emi/EMI_Graph';
 
-
 function App() {
   return (
     
@@ -39,6 +39,7 @@ function App() {
                       <Left/>
                         <div className='col-8 bg-light bg-opacity-75'>
                           <Routes>
+                            <Route path = '/todo' element={<ToDo/>}/>
                             <Route path = '/test' element={<Test/>}/>
                             <Route path = '/home' element={<Home/>}/>
                             <Route path = '/cricket' element={<Cricket/>}/>
