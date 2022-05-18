@@ -5,7 +5,7 @@ const Footer = () => {
         <>
         <div className='row bg-success bg-opacity-75'>
                     <div className='col-12 text-center'>
-                      <p>Devlope By Neuton School</p>
+                      <p>Devlope By Newton School</p>
                     </div>
                   </div>
         </>

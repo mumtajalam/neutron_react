@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 
 
@@ -10,7 +10,7 @@ const FormFnValidation = () => {
 
     const handleChange = (event) => {
         console.log('event', event.target.value, event.target.name);
-        setFormData({...FormData, [event.target.name]: event.target.value});
+        setFormData({...formData, [event.target.name]: event.target.value});
     }
 
     const handleSubmit = (event) => {
@@ -38,6 +38,10 @@ const FormFnValidation = () => {
         }
         return error;
     };
+    useEffect(() =>{
+        console.log(formData);
+        console.log(formErrors);
+    })
     
     return(
         <>

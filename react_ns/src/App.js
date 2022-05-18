@@ -20,7 +20,8 @@ import Footer from './comman/Footer';
 import Manubar from './comman/Manubar';
 import Left from './comman/Left';
 import Right from './comman/Right';
-
+import HOC_Country from './hoc/HOC_Country';
+import HOC_State from './hoc/HOC_State';
 import EMI from './emi/EMI';
 import EMI_Principal from './emi/EMI_Principal';
 import EMI_Final from './emi/EMI_Final';
@@ -52,6 +53,8 @@ function App() {
                             <Route path = '/reffn' element={<RefFn/>}/>
                             <Route path = '/formfn' element={<FormFn/>}/>
                             <Route path = '/formfn2' element={<FormFnValidation/>}/>
+                            <Route path = '/hoccountry' element={<HOC_Country/>}/>
+                            <Route path = '/hocstate' element={<HOC_State/>}/>
                           </Routes>
                         </div>
                       <Right/> 
