@@ -14,6 +14,8 @@ import RefFn from './RefFn';
 import FormFn from './FormFn';
 import FormFnValidation from './FormFnValidation';
 import ToDo from './ToDo';
+import Github from "./Github";
+import GithubFn from './GithubFn';
 
 import Header from './comman/Header';
 import Footer from './comman/Footer';
@@ -28,6 +30,7 @@ import EMI_Final from './emi/EMI_Final';
 import EMI_Rate from './emi/EMI_Rate';
 import EMI_Time from './emi/EMI_Time';
 import EMI_Graph from './emi/EMI_Graph';
+
 
 function App() {
   return (
@@ -55,6 +58,8 @@ function App() {
                             <Route path = '/formfn2' element={<FormFnValidation/>}/>
                             <Route path = '/hoccountry' element={<HOC_Country/>}/>
                             <Route path = '/hocstate' element={<HOC_State/>}/>
+                            <Route path = '/github' element={<Github/>}/>
+                            <Route path = '/githubfn' element={<GithubFn/>}/>
                           </Routes>
                         </div>
                       <Right/> 

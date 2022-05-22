@@ -8,6 +8,8 @@ const Manubar = () => {
         <div className='row bg-info bg-opacity'>
                   <div className='col-12 text-center'>
                     <Navbar>
+                    <Link to='/githubfn' className="nav-link btn btn-outline-success">GithubFn</Link>
+                    <Link to='/github' className="nav-link btn btn-outline-success">Github</Link>
                     <Link to='/hoccountry' className="nav-link btn btn-outline-success">HOC_Country</Link>
                     <Link to='/hocstate' className="nav-link btn btn-outline-success">HOC_State</Link>
                     <Link to='/todo' className="nav-link btn btn-outline-success">ToDo</Link>
