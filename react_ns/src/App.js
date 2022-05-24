@@ -16,6 +16,7 @@ import FormFnValidation from './FormFnValidation';
 import ToDo from './ToDo';
 import Github from "./Github";
 import GithubFn from './GithubFn';
+import ContactApp from './ContactApp';
 
 import Header from './comman/Header';
 import Footer from './comman/Footer';
@@ -43,6 +44,7 @@ function App() {
                       <Left/>
                         <div className='col-8 bg-light bg-opacity-75'>
                           <Routes>
+                            <Route path = '/contactapp' element={<ContactApp/>}/>
                             <Route path = '/todo' element={<ToDo/>}/>
                             <Route path = '/test' element={<Test/>}/>
                             <Route path = '/home' element={<Home/>}/>

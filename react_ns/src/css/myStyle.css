@@ -14,3 +14,7 @@ body {
     padding: 20px;
     background-color: blueviolet;
 } */
+
+.navbar-expand{
+    flex-wrap: wrap !important;
+}

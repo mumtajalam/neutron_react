@@ -37,6 +37,7 @@ const GithubFn  = () => {
 
     useEffect(() => {
         callApi();
+        // setTimeout(callApi, 5000);
     }, [])
     //componentDidMount
 
@@ -68,7 +69,7 @@ const GithubFn  = () => {
                     ))
                 }
                 <button className='btn btn-sm btn-primary' onClick={() => nextPage()}>Next</button>
-                <table className='table table-striped table-responsive'>
+                {issuesList.length > 0 ? (<table className='table table-striped table-responsive'>
                     <thead>
                         <tr>
                             <th>Number</th>
@@ -91,6 +92,10 @@ const GithubFn  = () => {
                     }
                     </tbody>
                 </table>
+                )
+                :
+                (<div><img src="https://hackernoon.com/images/0*4Gzjgh9Y7Gu8KEtZ.gif"/></div>)
+                }
         </>
     )
 }
