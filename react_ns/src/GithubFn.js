@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext} from 'react';
+// import { DataAppContext } from './common/DataApp';
+
 
 
 const GithubFn  = () => {
@@ -7,6 +9,9 @@ const GithubFn  = () => {
     const [pageNum, setPageNum] = useState(1);
     const [buttons, setButtons] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
     const [button, setButton] = useState([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
+
+    // const loginDetails = useContext(DataAppContext);
+    // console.log(loginDetails);
 
 
     // const callApi = () => {
@@ -62,7 +67,15 @@ const GithubFn  = () => {
 
     return(
         <>
-          <h2>Issues List</h2>
+            <div className='row'>
+                <div className='col-9'>
+                    <div>Hi {}</div>
+                </div>
+                <div className='col-3'>
+                    <button>Login/Logout</button>
+                </div>
+            </div>
+            <h2>Issues List</h2>
                 {
                     buttons && buttons.map((item) => (
                         <button className='btn btn-sm btn-primary' onClick={() =>updatePageNum(item)}>{item}</button>
